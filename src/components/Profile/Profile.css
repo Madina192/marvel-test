@@ -1,0 +1,74 @@
+.box {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 1em;
+}
+.img {
+    width: 1000px;
+    height: 260px;
+
+}
+
+.img_dog {
+    width: 200px;
+    height: 200px;
+}
+
+.about_box {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 1em;
+    margin-top: 15px;
+}
+
+.about_right {
+    padding-left: 15px;
+    font-size: 18px;
+    color: #05757a;
+}
+
+.h2 {
+    color: #05757a;
+    font-size: 30px;
+}
+
+.input {
+    width: 800px;
+    height: 60px;
+    font-size: 20px;
+    outline: none;
+}
+
+.send-btn {
+    position: absolute;
+    bottom: -50px;
+    right: 190px;
+    width: 120px;
+    height: 40px;
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.send-btn:hover {
+    cursor: pointer;
+    background-color: #05757a;
+}
+
+.my-posts {
+    position: relative;
+}
+
+.comment-line{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-bottom: 15px;
+}
+.comment-line:first-child{
+    margin-top: 65px;
+}
+
+.comment-right {
+    font-size: 30px;
+    margin-top: 10px;
+}
